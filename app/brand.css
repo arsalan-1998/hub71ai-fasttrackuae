@@ -1,0 +1,49 @@
+.mad-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  flex-shrink: 0;
+  color: #183251;
+}
+
+.mad-brand img {
+  display: block;
+  width: 64px;
+  height: 33px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.mad-brand-name {
+  font-size: 25px;
+  font-weight: 750;
+  line-height: 1;
+  letter-spacing: -.5px;
+}
+
+.mad-brand-name small {
+  display: block;
+  margin-top: 6px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1.8px;
+  color: #7389a3;
+}
+
+.mad-brand--sidebar { padding: 0 10px; margin-bottom: 49px; }
+.landing-footer .mad-brand-name { font-size: 21px; }
+.landing-footer .mad-brand img { width: 54px; height: 28px; }
+.sidebar-footer .avatar { font-size: 10px; }
+
+@media (max-width: 1000px) {
+  .mad-brand--sidebar { padding-inline: 4px; gap: 8px; }
+  .mad-brand--sidebar img { width: 50px; height: 26px; }
+  .mad-brand--sidebar .mad-brand-name { font-size: 22px; }
+}
+
+@media (max-width: 600px) {
+  .mad-brand { gap: 8px; }
+  .mad-brand img { width: 49px; height: 25px; }
+  .mad-brand-name { font-size: 22px; }
+  .mad-brand-name small { font-size: 9px; letter-spacing: 1.5px; }
+}
